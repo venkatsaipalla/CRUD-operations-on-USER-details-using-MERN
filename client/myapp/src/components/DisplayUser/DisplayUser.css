@@ -1,0 +1,94 @@
+.card {
+    padding: 15px;
+    width: 350px;
+    background: #222;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    user-select: none;
+    margin: 5px;
+    border-width: 2px;
+    border-color: #333;
+    border-style: solid;
+}
+
+.cover-photo {
+    position: relative;
+    background: url(https://i.imgur.com/jxyuizJ.jpeg);
+    background-size: cover;
+    height: 80px;
+    border-radius: 5px 5px 0 0;
+}
+
+.profile {
+    position: absolute;
+    width: 80px;
+    bottom: -60px;
+    left: 15px;
+    border-radius: 50%;
+    border: 2px solid #222;
+    background: #222;
+    background-size: cover;
+}
+
+.profile-name {
+    font-size: 20px;
+    margin: 15px 0 0 120px;
+    color: #fff;
+}
+
+.about {
+    margin-top: 30px;
+    text-align:left;
+	margin-left:7px;
+    color: #fff;
+    font-size: 14px;
+}
+.bttn {
+    
+    margin: 30px 15px;
+    background: #7ce3ff;
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: 1px solid #7ce3ff;
+    font-weight: bold;
+    font-family: Montserrat;
+    cursor: pointer;
+    color: #222;
+    transition: 0.2s;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.bttn:last-of-type {
+    background: transparent;
+    border-color: #7ce3ff;
+    color: #7ce3ff;
+}
+
+.bttn:hover {
+    background: #7ce3ff;
+    color: #222;
+}
+
+.icons {
+    width: 180px;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.icons i {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.icons i:hover {
+    color: #7ce3ff;
+}
+.details{
+    padding: 0px;
+}
