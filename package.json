@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "config": "^3.3.8",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "mongoose": "^6.8.2",
+    "react": "^18.2.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "server": "nodemon server"
+  },
+  "name": "tensorflow-project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "author": "Palla venkatasai",
+  "license": "ISC",
+  "description": ""
+}
